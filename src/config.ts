@@ -13,7 +13,7 @@ import { LinkPreset } from "./types/config";
 import { getTranslateLanguageFromConfig } from "./utils/language-utils";
 
 // Define site language
-const SITE_LANG = "en"; // Language code, e.g., 'en', 'zh_CN', 'ja', etc.
+const SITE_LANG = "zh_CN"; // Language code, e.g., 'en', 'zh_CN', 'ja', etc.
 
 export const siteConfig: SiteConfig = {
 	title: "Mizuki",
