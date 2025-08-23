@@ -69,13 +69,13 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // Display custom text on homepage
-			title: "Mizuki", // Homepage banner main title
+			title: "倾听雨落", // Homepage banner main title
 
 			subtitle: [
-				"One demo website",
-				"Carousel Text1",
-				"Carousel Text2",
-				"Carousel Text3",
+				"会当凌绝顶，一览众山小。",
+				"月明船笛参差起，风定池莲自在香。",
+				"行人无限秋风思，隔水青山似故乡。",
+				"一轮秋影转金波。飞镜又重磨。",
 			], // Homepage banner subtitle, supports multiple texts
 			typewriter: {
 				enable: true, // Enable subtitle typewriter effect
@@ -113,7 +113,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接,并且支持多级菜单,3.1版本新加
 		{
-			name: "Links",
+			name: "友情链接",
 			url: "/links/",
 			children: [
 				{
@@ -127,19 +127,19 @@ export const navBarConfig: NavBarConfig = {
 					external: true,
 				},
 				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
+					name: "青空图仓",
+					url: "https://v.520737.xyz",
 					external: true,
 				},
 			],
 		},
 		{
-			name: "My",
+			name: "我的",
 			url: "/content/",
 			children: [LinkPreset.Anime, LinkPreset.Diary, LinkPreset.Gallery],
 		},
 		{
-			name: "About",
+			name: "关于",
 			url: "/content/",
 			children: [LinkPreset.About, LinkPreset.Friends],
 		},
