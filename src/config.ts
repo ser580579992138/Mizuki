@@ -16,8 +16,8 @@ import { getTranslateLanguageFromConfig } from "./utils/language-utils";
 const SITE_LANG = "zh_CN"; // Language code, e.g., 'en', 'zh_CN', 'ja', etc.
 
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
+	title: "倾听雨落",
+	subtitle: "世间万物皆有灵性，用心聆听，你能听到它们的声音。",
 
 	lang: SITE_LANG,
 
