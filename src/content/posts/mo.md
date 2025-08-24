@@ -1,9 +1,10 @@
 ---
-title: 测试
+title: 我是一个标题
 published: 2025-08-23
-description: This post demonstrates how to include embedded video in a blog post.
-tags: [Example, Video]
-category: Examples
+description: 描述
+image: 'assets/banner/1-banner.webp'
+tags: [文章标签]
+category: 文章分类
 draft: false
 ---
 
